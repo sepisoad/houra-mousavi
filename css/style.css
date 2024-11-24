@@ -156,10 +156,8 @@ header ul li a.active{
 
 /*==========05) Hero Section Start==========*/
 #hero{
-	background: url(../img/hero-1.jpeg);
+	background: url(../img/hero-1.jpeg) no-repeat center center;
 	background-size: cover;
-	/*height: 100vh;*/
-	background-repeat: no-repeat;
 	width: 100%;
 }
 #hero .hero-content {
@@ -293,6 +291,9 @@ header ul li a.active{
 /*==========12) Contact Section End========*/
 
 /*==========13) Footer Section Start==========*/
+.footer-info {
+	padding: 15px;
+}
 /*==========13) Footer Section End==========*/
 
 
