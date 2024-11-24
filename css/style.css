@@ -21,10 +21,6 @@
 	========================
 */
 
-/*==========01) Import Section Start==========*/
-@import url('../css/fonts.css');
-/*==========01) Import Section End==========*/
-
 /*==========02) Variable Section Start==========*/
 :root{
 
@@ -44,20 +40,7 @@
 	/*=========Font Family==========*/
 
 	/* Abel */
-	--Abel:'Abel', cursive;
-
-	/* Alegreya */
-	--Alegreya:'Alegreya', cursive;
-	
-	/* Inconsolata */
-	--Inconsolata:'Inconsolata', cursive;
-	
-	/* Josefin */
-	--Josefin:'Josefin', cursive;
-
-	/* Lexend */
-	--Lexend:'Lexend', cursive;
-
+	--Vazirmatn:'Vazirmatn';
 }
 /*==========02) Variable Section End==========*/
 
@@ -74,33 +57,33 @@ section{
 	padding: 0;
 }
 h1{
-	font-family: var(--Josefin);
+	font-family: var(--Vazirmatn);
 	font-size: 2.5rem;
 }
 h2{
-	font-family:var(--Lexend);
+	font-family:var(--Vazirmatn);
 	font-size: 2rem;
 }
 h3{
-	font-family: var(--Abel);
+	font-family: var(--Vazirmatn);
 	font-size: 1.5rem;
 }
 p{
-	font-family: var(--Abel);
+	font-family: var(--Vazirmatn);
 	font-size: 16px;
 	line-height: 30px;
 }
 h5 {
 	font-size: 22px;
 	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Vazirmatn', sans-serif;
 }
 h6{
 	font-weight: 700;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Vazirmatn', sans-serif;
 }
 label{
-	font-family: var(--Alegreya);
+	font-family: var(--Vazirmatn);
 }
 .btn-custom{
 	display: block;
@@ -109,6 +92,7 @@ label{
 	background-color: #e8bf5d;
 	border: none;
 	color: #111;
+	font-family: 'Vazirmatn', sans-serif;
 }
 .btn-custom:hover {
 	background-color:#111 ;
@@ -157,7 +141,7 @@ header ul li a{
 	padding: 10px;
 	color: #111;
 	text-transform: uppercase;
-	font-family: var(--Inconsolata);
+	font-family: var(--Vazirmatn);
 	font-weight: 600;
 }
 header ul li a:hover{
@@ -172,7 +156,7 @@ header ul li a.active{
 
 /*==========05) Hero Section Start==========*/
 #hero{
-	background: url(../img/hero.png);
+	background: url(../img/hero-1.jpeg);
 	background-size: cover;
 	/*height: 100vh;*/
 	background-repeat: no-repeat;
@@ -193,7 +177,7 @@ header ul li a.active{
 	line-height: 10px;
 }
 #hero .hero-heading h1 {
-	letter-spacing: 5px;
+	letter-spacing: 1px;
 }
 #hero .btn{
 	margin: 0;
